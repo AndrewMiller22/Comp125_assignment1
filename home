@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>True North Smokehouse | Home</title>
+<link rel="stylesheet" href="styles.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<nav>
+    <img class="nav-leaf" src="images/leaf.png" alt="Made in Canada">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+
+<li class="dropdown">
+<a href="#">Menu</a>
+<ul class="dropdown-content">
+<li><a href="calendar.html">Calendar</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="menulist.html">Menu List</a></li>
+</ul>
+</li>
+
+<li><a href="order.html">Order</a></li>
+<li><a href="location.html">Location</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="sitemap.html">Site Map & Credits</a></li>
+</ul>
+</nav>
+
+<header class="hero-banner">
+  <div class="hero-content">
+    <h1>True North Smokehouse</h1>
+    <p>Canadian smoke. Texas tradition.</p>
+    <a class="hero-btn" href="order.html">Order Now</a>
+  </div>
+</header>
+
+
+
+
+
+
+<section class="content founder">
+  <div class="founder-text">
+    <h2>Founded in 1944</h2>
+    <p>
+      True North Smokehouse began in 1944, founded by my grandfather after returning home from the war.
+      What started as a small backyard pit and family recipes grew into a community smokehouse built on
+      tradition, patience, and real wood-fired flavour.
+    </p>
+  </div>
+
+  <div class="founder-img">
+    <img src="images/bbqman.jpg" alt="Our founder in 1944">
+  </div>
+</section>
+
+
+</body>
+</html>
