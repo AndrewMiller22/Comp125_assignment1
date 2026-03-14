@@ -76,3 +76,4 @@ function renderCalendar(month, year) {
 }
 
 renderCalendar(currentMonth, currentYear);
+
