@@ -221,7 +221,7 @@ nav a:hover{
   height: 4px;
   margin: 14px auto 0;
   background: linear-gradient(90deg, var(--primary), var(--accent));
-  border-radius: 99
+  border-radius: 99px;
 }/* ===== Founder section styling upgrade ===== */
 
 /* ===== Founder section final layout ===== */
@@ -250,4 +250,65 @@ nav a:hover{
 .founder-text{
   padding-left: 10px;
 }
+.content{
+  width: min(1150px, 92%);
+  margin: 0 auto 60px;
+}
+
+#monthYear{
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 2rem;
+  color: var(--dark);
+}
+
+.calendar{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #fff;
+  box-shadow: var(--shadow);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.calendar th,
+.calendar td{
+  border: 1px solid var(--border);
+  width: 14.28%;
+  height: 130px;
+  vertical-align: top;
+  padding: 8px;
+}
+
+.calendar th{
+  background-color: #f2c48d;   
+  color: #5a2b00;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+.day-number{
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+  color: var(--primary-2);
+}
+
+.order-card{
+  background: #fff8e8;
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 6px;
+  margin-top: 6px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.empty-day{
+  background-color: #faf7f2;
+}
+
 
