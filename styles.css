@@ -358,5 +358,21 @@ table.calendar th {
 table.calendar td {
   background-color: #faf7f2 !important;
 }
+section.content {
+  width: 1150px !important;
+  max-width: 92% !important;
+  margin: 0 auto 60px !important;
+  display: block !important;
+}
 
+section.content table.calendar {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+}
+
+section.content .calendar th,
+section.content .calendar td {
+  width: 14.28% !important;
+}
 
