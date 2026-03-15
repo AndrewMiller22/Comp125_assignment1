@@ -267,7 +267,6 @@ nav a:hover{
   border-collapse: collapse;
   table-layout: fixed;
   background: #fff;
-  box-shadow: var(--shadow);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -282,11 +281,15 @@ nav a:hover{
 }
 
 .calendar th{
-  background-color: #f2c48d;   
+  background-color: #f2c48d;
   color: #5a2b00;
   text-align: center;
   font-weight: bold;
   padding: 10px;
+}
+
+.calendar td{
+  background-color: #faf7f2;
 }
 
 
