@@ -313,6 +313,50 @@ nav a:hover{
 .empty-day{
   background-color: #faf7f2;
 }
+section.content {
+  width: min(1150px, 92%) !important;
+  margin: 0 auto 60px !important;
+}
 
+table.calendar {
+  width: 100% !important;
+  min-width: 100% !important;
+  border-collapse: collapse !important;
+  table-layout: fixed !important;
+  display: table !important;
+}
+
+table.calendar thead {
+  display: table-header-group !important;
+}
+
+table.calendar tbody {
+  display: table-row-group !important;
+}
+
+table.calendar tr {
+  display: table-row !important;
+}
+
+table.calendar th,
+table.calendar td {
+  display: table-cell !important;
+  width: 14.28% !important;
+  height: 130px !important;
+  border: 1px solid var(--border) !important;
+  vertical-align: top !important;
+  padding: 8px !important;
+}
+
+table.calendar th {
+  background-color: #f2c48d !important;
+  color: #5a2b00 !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+table.calendar td {
+  background-color: #faf7f2 !important;
+}
 
 
