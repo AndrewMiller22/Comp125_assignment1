@@ -97,7 +97,7 @@ function endGame() {
 function resetGame() {
   score = 0;
   speed = initialSpeed;
-  timeLeft = 60;
+  timeLeft = 30;
   gameRunning = true;
 
   updateScore();
