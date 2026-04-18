@@ -9,7 +9,7 @@ let score = 0;
 let speed = 1500;
 const initialSpeed = 1500;
 
-let timeLeft = 60;
+let timeLeft = 30;
 let gameRunning = true;
 
 const bug = {
